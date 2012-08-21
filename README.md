@@ -2,11 +2,21 @@ One true adb_usb.ini to rule them all!
 ======================================
 
 This is an adb_usb.ini containing every known Android vendor ID (and all other known USB vendors on the planet,
-just for good measure). Just clone into your .android directory, as follows:
+just for good measure).
 
-    $ git clone git@github.com:apkudo/adbusbini.git ~/.android/
+To clone into your .android directory (for easy updating via git):
 
-A parseable listing is also included in VENDORS, using the following format:
+    $ cd ~/.android
+    $ rm adb_usb.ini
+    $ git init
+    $ git remote add origin git@github.com:apkudo/adbusbini.git
+    $ git pull origin master
+
+Alternatively, to just copy the latest file directly into your .android:
+
+    $ curl -L http://raw.github.com/apkudo/adbusbini/master/adb_usb.ini --O ~/.android/adb_usb.ini
+
+A parseable listing is included in VENDORS, using the following format:
 
     <vendor_id> <is_android_vendor> <vendor_name>
 
