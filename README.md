@@ -10,8 +10,8 @@ A parseable listing is also included in VENDORS, using the following format:
 
     <vendor_id> <is_android_vendor> <vendor_name>
 
-For data sources, we used every Android device that we have (which is all of them), the Linux USB listing at
-http://www.linux-usb.org/usb.ids, and the USB listing at http://www.usb.org/developers/tools/comp_dump.
+For data sources, we used every Android device that we have (which is, we believe, all of them), the Linux USB
+listing at http://www.linux-usb.org/usb.ids, and the USB listing at http://www.usb.org/developers/tools/comp_dump.
 If you're interested, the tool used to scrape the web data sources is in adbusbini_scrape.py.
 
 Updates are very much encouraged and appreciated - please either submit a pull request or email to
