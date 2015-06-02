@@ -14,7 +14,7 @@ To clone into your .android directory (for easy updating via git):
 
 Alternatively, to just copy the latest file directly into your .android:
 
-    $ curl -L http://raw.github.com/apkudo/adbusbini/master/adb_usb.ini --O ~/.android/adb_usb.ini
+    $ curl https://raw.githubusercontent.com/apkudo/adbusbini/master/adb_usb.ini > ~/.android/adb_usb.ini
 
 A parseable listing is included in VENDORS, using the following format:
 
